@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <script defer src="couples.js"></script>
+  <title>Couple game by Ilham</title>
+</head>
+<body>
+  <div class="">
+    <section class="main">
+      <h1 class="main__title">ИГРА В ПАРЫ</h1>
+      <form action="" class="main__form">
+        <h2 class="main__form-title">Выбери четное количество столбцов и строк от 4 до 10</h2>
+        <input type="number" class="main__form-input" min="4" max="10" placeholder="Введи число">
+        <span class="main__form--alert"></span>
+        <button type="submit" class="main__form-btn disabled" disabled="true">Поехали!</button>
+      </form>
+    </section>
+    <section class="game-page">
+      <h2 class="game-page-title main__title">ИГРА В ПАРЫ</h2>
+      <div class="game-page__cards-fieldset"></div>
+      <button class="game-page__restart-btn main__form-btn">Сыграть заново?</button>
+    </section>
+    
+  </div>
+</body>
+</html>
